@@ -73,7 +73,6 @@ deliveryBoyShort.recieve();
 // Hi - Bye
 //////////////////////////////////////////////
 let message = 'hi';
-
 {
     let message = 'bye';
 }
@@ -110,7 +109,6 @@ function letFunc() {
 }
 
 
-
 //////////////////////////////////////////////
 // Defaulting nonfunction
 //////////////////////////////////////////////
@@ -119,7 +117,6 @@ function greet(greeting = "Hello", name = "Chris") {
 }
 greet();
 greet('Hi', 'Josh');
-
 
 
 //////////////////////////////////////////////
@@ -143,7 +140,6 @@ let recieveSingle = (completeSingle = () => console.log("complete single")) => c
 recieveSingle();
 
 
-
 //////////////////////////////////////////////
 // Const
 //////////////////////////////////////////////
@@ -164,7 +160,6 @@ if(true){
 //console.log('foo: ', foo);
 
 
-
 //////////////////////////////////////////////
 // Shorthand
 //////////////////////////////////////////////
@@ -176,7 +171,6 @@ console.log(person);
 let mascot = "Moose";
 let team = {person, mascot};
 console.log(team);
-
 
 
 //////////////////////////////////////////////
@@ -196,7 +190,6 @@ var car = {
 console.log(car.color);
 console.log(car.speed);
 car.go();
-
 
 
 //////////////////////////////////////////////
@@ -223,7 +216,6 @@ addThreeThings(...first);
 addThreeThings(...second);
 
 
-
 //////////////////////////////////////////////
 // Template Literals
 //////////////////////////////////////////////
@@ -246,7 +238,6 @@ function tag(strings,...values){
 }
 var messageHour = tag`It's ${new Date().getHours()} I'm ${''}`;
 console.log(messageHour);
-
 
 
 //////////////////////////////////////////////
